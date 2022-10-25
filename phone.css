@@ -8,7 +8,9 @@ html {
 
 }
 body{
-    margin: 0px;
+    margin: 4px;
+    display:block;
+width: 99.9%;
 }
 .root {
     --background-color: rgb(244, 221, 215);
@@ -42,14 +44,14 @@ body{
 /* navbar design as grid no image is included */
 .navbar {
     font-size: 1rem;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 6rem;
     align-items: center;
     position: absolute;
 
-    width: 98%;
+    width: 99%;
     top: 0px;
     left: 0px;
     /* z-index: 1; */
@@ -115,26 +117,26 @@ body{
     opacity: 1;
     position: relative;
     /* z-index: -1; */
-    border: 3px solid rgb(11, 37, 239);
+    /* border: 3px solid rgb(11, 37, 239); */
     top: 208px;
 }
 
 .home::before {
     content: "";
     position: absolute;
-    background: url('../shutterstock_711673795.jpg') no-repeat center center/cover;
+    background: url('./shutterstock_711673795.jpg') no-repeat center center/cover;
     /* height: 700px; */
     top: 0px;
     left: 0px;
     width: 99.5%;
     z-index: -1;
     opacity: 0.89;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 
 }
 
 .home div {
-    border: 5px sold black;
+    /* border: 5px sold black; */
     /* background-color: red; */
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -148,7 +150,7 @@ body{
 .services {
     /* background-color: red; */
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     
@@ -270,5 +272,11 @@ body{
     font-family: 'Times New Roman', Times, serif;
 
 
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
 }
