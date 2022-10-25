@@ -155,6 +155,11 @@ html {
 
 }
 
+#home-down{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
 /* services######################################## */
 
 
@@ -259,7 +264,6 @@ html {
 }
 
 
-
 .services div {
     border: 5px solid var(--background-color);
     display: block;
@@ -273,13 +277,28 @@ html {
     border: 5px solid var(--background-color);
     border-radius: 2rem;
     /* display: block; */
+    align-items: center;
+    margin: auto;
 
 }
 
 .services div img {
     border: 5px solid black;
+}.desc {
+    color: red;
 }
-
+.services div p {
+    /* display: block; */
+    /* font-size: 2rem; */
+    color: black;
+    text-align: center;
+    top: 20px;
+    margin: auto;
+    width: fit-content;
+}
+#termite {
+    font-size: 1.3rem;
+}
 /* about##################################### */
 .about {
     display: grid;
@@ -289,7 +308,7 @@ html {
     z-index: -1;
     position: relative;
     background-color: #f9f1f1;
-    top: 210px;
+    top: 373px;
 }
 
 .about div {
@@ -315,7 +334,7 @@ html {
     ;
     position: relative;
     
-        top: 210px;
+        top: 400px;
 }
 
 #footer-1 {
