@@ -21,7 +21,7 @@ html {
 */
 
 #service-0,
-#about-0 {
+#about-0,#products-0 {
     text-align: centre;
     margin: auto;
     font-size: 3rem;
@@ -29,6 +29,12 @@ html {
     background-color: rgb(253, 204, 204);
     border: 2px solid black;
     border-radius: 2rem;
+    /* display: block;
+     */
+     width: 100%;
+     justify-content: center;
+     margin: auto;
+     text-align: center;
 
 
 }
@@ -38,7 +44,7 @@ html {
 .navbar {
     /* border: 5px solid black; */
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 6rem;
     align-items: center;
     position: sticky;
@@ -155,11 +161,12 @@ html {
 
 }
 
-#home-down{
+#home-down {
     text-align: center;
     font-size: 3rem;
     color: black;
 }
+
 /* services######################################## */
 
 
@@ -284,9 +291,12 @@ html {
 
 .services div img {
     border: 5px solid black;
-}.desc {
+}
+
+.desc {
     color: red;
 }
+
 .services div p {
     /* display: block; */
     /* font-size: 2rem; */
@@ -296,9 +306,57 @@ html {
     margin: auto;
     width: fit-content;
 }
+
 #termite {
     font-size: 1.3rem;
 }
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@products */
+#products {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.products {
+    /* background-color: red; */
+
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* grid-template-columns: 5fr 5fr; */
+    z-index: -1;
+    
+    ;
+    /* position: relative; */
+    width: 100%;
+}
+
+.products div  {
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+    padding: 12px 100px;
+}
+#products-0{
+    display: block;
+        margin: 67px auto;
+        width: 100%;
+    
+}
+.products div img{
+    DISPLAY: BLOCK;
+        align-content: center;
+        margin: auto;
+        /* padding: 0px 22px; */
+}
+.products div p {
+    color: black;
+}
+
 /* about##################################### */
 .about {
     display: grid;
@@ -318,7 +376,7 @@ html {
     margin: auto;
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
-   
+
 
 
 
@@ -333,8 +391,8 @@ html {
         'footer-3 footer-3'
     ;
     position: relative;
-    
-        top: 400px;
+
+    top: 400px;
 }
 
 #footer-1 {

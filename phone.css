@@ -263,7 +263,13 @@ width: 99.9%;
     top: 20px;
     margin: auto;
 }
+/* @@@@@@@@@@@@@@@@products
+ */
+ #products{
 
+    position: relative;
+    top:417px
+ }
 /* about##################################### */
 .about {
     display: grid;
@@ -272,6 +278,7 @@ width: 99.9%;
     grid-gap: 4fr;
     z-index: -1;
     position: relative;
+    top: 500px;
 }
 
 .about div {
@@ -289,5 +296,7 @@ width: 99.9%;
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
+    top: 505px;
 
 }
